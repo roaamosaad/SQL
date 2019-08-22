@@ -1,0 +1,83 @@
+SELECT oi.name, round(1.0 * COUNT(DISTINCT oi.order_id)/ COUNT (DISTINCT delivered_to), 2) as reorder_rate
+FROM order_items oi
+JOIN orders o
+ON o.id = oi.order_id
+GROUP BY 1
+ORDER BY 2 DESC;
+
+SELECT oi.name, round(1.0 * COUNT(DISTINCT oi.order_id)/ COUNT (DISTINCT delivered_to), 2) as reorder_rate
+FROM order_items oi
+JOIN orders o
+ON o.id = oi.order_id
+GROUP BY 1
+ORDER BY 2 DESC;
+
+SELECT oi.name, round(1.0 * COUNT(DISTINCT oi.order_id)/ COUNT (DISTINCT delivered_to), 2) as reorder_rate
+FROM order_items oi
+JOIN orders o
+ON o.id = oi.order_id
+GROUP BY 1
+ORDER BY 2 DESC;
+
+SELECT oi.name, round(1.0 * COUNT(DISTINCT oi.order_id)/ COUNT (DISTINCT delivered_to), 2) as reorder_rate
+FROM order_items oi
+JOIN orders o
+ON o.id = oi.order_id
+GROUP BY 1
+ORDER BY 2 DESC;
+
+SELECT oi.name, round(1.0 * COUNT(DISTINCT oi.order_id)/ COUNT (DISTINCT delivered_to), 2) as reorder_rate
+FROM order_items oi
+JOIN orders o
+ON o.id = oi.order_id
+GROUP BY 1
+ORDER BY 2 DESC;
+
+SELECT oi.name, round(1.0 * COUNT(DISTINCT oi.order_id)/ COUNT (DISTINCT delivered_to), 2) as reorder_rate
+FROM order_items oi
+JOIN orders o
+ON o.id = oi.order_id
+GROUP BY 1
+ORDER BY 2 DESC;
+
+SELECT oi.name, round(1.0 * COUNT(DISTINCT oi.order_id)/ COUNT (DISTINCT delivered_to), 2) as reorder_rate
+FROM order_items oi
+JOIN orders o
+ON o.id = oi.order_id
+GROUP BY 1
+ORDER BY 2 DESC;
+
+SELECT oi.name, round(1.0 * COUNT(DISTINCT oi.order_id)/ COUNT (DISTINCT delivered_to), 2) as reorder_rate
+FROM order_items oi
+JOIN orders o
+ON o.id = oi.order_id
+GROUP BY 1
+ORDER BY 2 DESC;
+
+SELECT oi.name, round(1.0 * COUNT(DISTINCT oi.order_id)/ COUNT (DISTINCT delivered_to), 2) as reorder_rate
+FROM order_items oi
+JOIN orders o
+ON o.id = oi.order_id
+GROUP BY 1
+ORDER BY 2 DESC;
+
+SELECT oi.name, round(1.0 * COUNT(DISTINCT oi.order_id)/ COUNT (DISTINCT delivered_to), 2) as reorder_rate
+FROM order_items oi
+JOIN orders o
+ON o.id = oi.order_id
+GROUP BY 1
+ORDER BY 2 DESC;
+
+SELECT oi.name, round(1.0 * COUNT(DISTINCT oi.order_id)/ COUNT (DISTINCT delivered_to), 2) as reorder_rate
+FROM order_items oi
+JOIN orders o
+ON o.id = oi.order_id
+GROUP BY 1
+ORDER BY 2 DESC;
+
+SELECT oi.name, round(1.0 * COUNT(DISTINCT oi.order_id)/ COUNT (DISTINCT delivered_to), 2) as reorder_rate
+FROM order_items oi
+JOIN orders o
+ON o.id = oi.order_id
+GROUP BY 1
+ORDER BY 2 DESC;
